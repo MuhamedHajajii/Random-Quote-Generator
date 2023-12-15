@@ -48,26 +48,26 @@ var quoteArrayName = [
   `― Martin Luther King Jr., A Testament of Hope: The Essential Writings and Speeches`
 ];
 var quoteArrayImgs = [
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/1.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/2.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/3.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/4.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/5.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/6.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/7.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/8.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/9.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/10.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/11.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/12.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/13.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/14.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/15.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/16.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/17.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/18.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/19.jpg" alt="">`,
-  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/20.jpg" alt="">`
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/1.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/2.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/3.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/4.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/5.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/6.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/7.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/8.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/9.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/10.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/11.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/12.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/13.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/14.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/15.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/16.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/17.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/18.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/19.jpg" alt="">',
+  '<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/20.jpg" alt="">'
 ];
 
 var usedIndexs = [];
