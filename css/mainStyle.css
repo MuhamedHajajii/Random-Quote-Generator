@@ -10,13 +10,7 @@
   }
   p {
     font-size: 25px;
-  }
-  button {
-    width: 250px;
-    height: 80px;
-    color: white;
-  }
-  
+  }  
   #quoteOutput {
     max-width: fit-content;
     margin: auto;
