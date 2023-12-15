@@ -9,7 +9,7 @@
     font-family: Impact;
   }
   p {
-    font-size: 35px;
+    font-size: 25px;
   }
   button {
     width: 250px;
@@ -29,3 +29,9 @@
   color: white;
   background-color: rgb(58, 58, 34);
 } 
+
+.imgs {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}

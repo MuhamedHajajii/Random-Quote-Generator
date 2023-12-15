@@ -22,7 +22,7 @@ var quoteArray = [
   `“I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.”`,
   `“A friend is someone who knows all about you and still loves you.”`,
   `“To live is the rarest thing in the world. Most people exist, that is all.”`,
-  `“Always forgive your enemies; nothing annoys them so much.”`,
+  `“Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can't do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do.”`,
   `“Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.”`
 ];
 var quoteArrayName = [
@@ -44,8 +44,30 @@ var quoteArrayName = [
   `― Maya Angelou`,
   `― Elbert Hubbard`,
   `― Oscar Wilde`,
-  `― Oscar Wilde`,
+  `― Steve Jobs`,
   `― Martin Luther King Jr., A Testament of Hope: The Essential Writings and Speeches`
+];
+var quoteArrayImgs = [
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/1.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/2.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/3.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/4.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/5.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/6.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/7.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/8.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/9.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/10.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/11.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/12.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/13.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/14.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/15.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/16.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/17.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/18.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/19.jpg" alt="">`,
+  `<img style="border-radius:50% ;width:150px;height:150px;" src="./imges/20.jpg" alt="">`
 ];
 
 var usedIndexs = [];
@@ -62,6 +84,8 @@ function generateQuote () {
 usedIndexs.push(quoteArray[randNumber]);
   var quoteName =  quoteArray[randNumber];
   var ArrayName =  quoteArrayName[randNumber];
-  document.getElementById('quoteOutput').innerHTML = quoteName;
+  var quoteArrayImgss =  quoteArrayImgs[randNumber];
+  document.getElementById('quoteimgs').innerHTML = quoteArrayImgss;
   document.getElementById('authorOutput').innerHTML = ArrayName;
+  document.getElementById('quoteOutput').innerHTML = quoteName;
 }
