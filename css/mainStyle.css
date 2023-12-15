@@ -1,0 +1,31 @@
+
+  div {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+  }
+  h1 {
+    font-size: 80px;
+    font-family: Impact;
+  }
+  p {
+    font-size: 35px;
+  }
+  button {
+    width: 250px;
+    height: 80px;
+    color: white;
+  }
+  
+  #quoteOutput {
+    max-width: fit-content;
+    margin: auto;
+  }
+  * {
+    text-wrap: balance;
+    
+  }
+::selection {
+  color: white;
+  background-color: rgb(58, 58, 34);
+} 
