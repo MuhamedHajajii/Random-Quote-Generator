@@ -89,3 +89,20 @@ usedIndexs.push(quoteArray[randNumber]);
   document.getElementById('authorOutput').innerHTML = ArrayName;
   document.getElementById('quoteOutput').innerHTML = quoteName;
 }
+
+let ImageTest = document.getElementById('ImageTest');
+
+fetch('https://script.google.com/macros/s/AKfycby0oDi83e1IcoGT0sAvhJ9gntcpeLX7n_bqN2qSmCUgRIp9Q8u9fO2IuX-klHZAonRw/exec')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log(data); // Log the entire response data
+        const imageUrl = data.imageUrlsFolder1['Cocktail And Mixes'].Image_Url;
+        console.log(imageUrl); // Log the specific image URL
+        ImageTest.setAttribute('src', imageUrl);
+    })
+    .catch(error => console.error('There was a problem with the fetch operation:', error));
